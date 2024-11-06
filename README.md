@@ -8,17 +8,27 @@ El botón guardar hace que los datos introducidos se guarden en la memoria del d
 Por último tenemos el botón mostrar que carga los datos anteriormente guardados rellenando sus respectivas casillas. Incluso después de cerrar la operación es posible recuperar los datos guardados.  
 Dicho esto me gustaría mostrar ciertas partes del código: 
 Al principio para poder acceder mediante código a todos los recursos de la aplicación debemos relacionarlas con unas variables.
+
 ![image](https://github.com/user-attachments/assets/fcd7027d-9272-4d56-bbf7-7da9e2676635)
+
 Aquí se muestra como cada variable que voy a utilizar es ligada con el elemento en cuestión a través de su id.
 Para detectar en la división que el segundo operando  no sea valor cero lo he hecho de la siguiente manera:
+
 ![image](https://github.com/user-attachments/assets/cf84c8bc-46d4-416d-a1e5-c40e5f6de4b5)
 
 Cada vez que pulsamos en un botón es molesto que el teclado virtual del dispositivo se quede en la pantalla por eso he implementado este método.
+
 ![image](https://github.com/user-attachments/assets/54940af5-0b4f-48a0-aca3-750d7dca559a)
+
 Otra característica interesante es la de controlar la operación elegida en el mismo momento que pulsamos en el radio botón a través de sus eventos, aquí muestro un ejemplo:	
+
 ![image](https://github.com/user-attachments/assets/dd0ee5e6-9c94-4716-a5c1-150e1a815de0)
+
 Se utiliza shared preferences tanto para guardar como para cargar los datos de la operación que deseemos:
 Aquí vemos como se guardan.
+
 ![image](https://github.com/user-attachments/assets/c94e7a17-d72d-4dc8-afb8-7dc2c93cd1fd)
+
 Y aquí como se cargan de nuevo.	
+
 ![image](https://github.com/user-attachments/assets/366c6746-3ee5-46fc-a8fc-ab771f66a212)
