@@ -1,4 +1,5 @@
 ![image](https://github.com/user-attachments/assets/b604f4d1-7288-4416-b408-ef0ef0140999)
+
 Esta es la aplicación corriendo en el emulador dentro de android estudio. Como se puede ver consta de 3 editText, uno de ellos no es accesible ya que solo se actualiza al elegir la operación deseada en los radio botones. 
 Una vez introducidos los datos del primer numero y el segundo número lo ideal es elegir la operación deseada. Tenemos disponibles 4 operaciones como son la suma, resta, multiplicación y la división. El software cuenta con detección de error en el caso de que queramos calcular una operación sin haber elegido si queremos sumar, restar… y nos avisará de que debemos elegir la operación deseada. También se detecta si en las casillas de los operandos introducimos letras etc..
 Cuando ya hemos rellenado todos los campos necesarios para pulsar el botón de calcular, se realiza la operación deseada trasladando el resultado al textview que inicialmente tiene el texto Resultado. En este caso la aplicación también detecta ciertos errores como la división por cero avisándonos a través de una notificación Toast de que introduzcamos valores válidos.
